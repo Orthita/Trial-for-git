@@ -49,15 +49,12 @@ public class Login {
                 }
             }
         });
-
         
         frame.add(userLabel);
         frame.add(userText);
         frame.add(passwordLabel);
         frame.add(passwordText);
-        frame.add(loginButton);
-
-     
+        frame.add(loginButton);     
         frame.setVisible(true);
     }
 
